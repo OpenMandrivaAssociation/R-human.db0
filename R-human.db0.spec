@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.6.4
-Release:          1
+Release:          2
 Summary:          Base Level Annotation databases for human
 Group:            Sciences/Mathematics
 License:          The Artistic License, Version 2.0
