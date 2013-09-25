@@ -2,18 +2,19 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.6.4
-Release:          2
+Version:          2.9.0
+Release:          1
 Summary:          Base Level Annotation databases for human
 Group:            Sciences/Mathematics
 License:          The Artistic License, Version 2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/human.db0_2.9.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-methods R-AnnotationDbi
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-methods R-AnnotationDbi
+Requires:         R-methods R-AnnotationDbi 
+Requires:         R-methods R-AnnotationDbi 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-AnnotationDbi
+BuildRequires:    R-methods R-AnnotationDbi 
 
 %description
 Base annotation databases for human, intended ONLY to be used by
