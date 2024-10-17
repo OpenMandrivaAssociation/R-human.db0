@@ -7,7 +7,7 @@ Release:          1
 Summary:          Base Level Annotation databases for human
 Group:            Sciences/Mathematics
 License:          The Artistic License, Version 2.0
-URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/human.db0_2.9.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core
